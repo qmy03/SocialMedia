@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar */
+
+.avatar-profile{
+    width: 36px;
+
+}
+
+.navbar__search input{
+    height: 32px !important;
+    width: 280px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+/* content */
+
+/* content-area */
+.content-area{
+    padding-top: 70px;
+}
+.writePost{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.writePost__userImg{
+    width: 36px;
+    height: 36px;
+}
+
+.status__userImg{
+    width: 36px;
+    height: 36px;
+}
+.status{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+textarea{
+    border:  none !important;
+    box-sizing: border-box;
+}
+
+.writePost__btnPost{
+    width: calc(100% - 48px);
+}
+
+.status__contentImg{
+    width: calc(100% - 72px);
+    height: auto;
+}
+/* left Sidebar */
+.leftSidebar{
+    height: 50vw;
+    overflow: auto;
+    padding-top: 55px;
+}
+.advertisement{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.notification{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+/* content-messenger */
+.rightSidebar{
+    height: 100%;
+    overflow: auto;
+    padding-top: 55px;
+}
+.rightSidebar__userImg{
+    width: 36px;
+    height: 36px;
+}
+
+.rightSidebar__userName{
+    margin: 0;
+    line-height: 36px;
+}
+
+
